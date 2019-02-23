@@ -1,22 +1,38 @@
 [
   {
     "ParameterKey": "KeyPairName",
-    "ParameterValue": "override"
+    "ParameterValue": "eks-admin"
   },
   {
     "ParameterKey": "RemoteAccessCIDR",
-    "ParameterValue": "10.0.0.0/16"
+    "ParameterValue": "58.173.72.150/32"
   },
   {
-    "ParameterKey": "AvailabilityZones",
-    "ParameterValue": "$[taskcat_genaz_3]"
+    "ParameterKey": "VPCID",
+    "ParameterValue": "vpc-0302a62de55d3fbcd"
   },
   {
-    "ParameterKey": "QSS3BucketName",
-    "ParameterValue": "$[taskcat_autobucket]"
+    "ParameterKey": "PrivateSubnet1ID",
+    "ParameterValue": "subnet-0b21d69ab2db8c997"
   },
   {
-    "ParameterKey": "AdditionalEKSAdminArns",
-    "ParameterValue": ""
+    "ParameterKey": "PrivateSubnet2ID",
+    "ParameterValue": "subnet-0d4c315ab4891154c"
+  },
+  {
+    "ParameterKey": "PrivateSubnet3ID",
+    "ParameterValue": "subnet-0ed4ef258760bcb5f"
+  },
+  {
+    "ParameterKey": "PublicSubnet1ID",
+    "ParameterValue": "subnet-00dce199eba205b3c"
+  },
+  {
+    "ParameterKey": "PublicSubnet2ID",
+    "ParameterValue": "subnet-04a826e7ee933520d"
+  },
+  {
+    "ParameterKey": "PublicSubnet3ID",
+    "ParameterValue": "subnet-01ba1f72421a83242"
   }
 ]
